@@ -7,7 +7,7 @@
 </head>
 
 <br>
-<h1 class="h1">Main Page</h1>
+<h1 class="h1">Other Page</h1>
 
 <br>
 </html>

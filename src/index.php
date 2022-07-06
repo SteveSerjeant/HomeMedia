@@ -35,15 +35,14 @@ include "functions.php";
     <h1>Login Page</h1>
     <form action="authenticate.php" method="post">
 
-        <label for="username">
+        <label for="user">
             <i class="fas fa-user"></i>
-
-            <input type="text" name="user" placeholder="Username" id="user" required>
         </label>
+        <input type="text" name="user" placeholder="Username" id="user" required>
 
-        <lable for="password">
+        <label for="password">
             <i class="fas fa-lock"></i>
-        </lable>
+        </label>
         <input type="password" name="password" placeholder="Password" id="password" required>
         <input type="submit" name="btnLogin" value="Submit">
     </form>
