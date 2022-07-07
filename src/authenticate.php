@@ -22,6 +22,7 @@ if ($conn == false){
 
 //check if data submitted on form using isset()
 if (!isset($_POST['user'], $_POST['password'])){
+    echo 'user';
 
     exit('Please complete both fields!');
 }

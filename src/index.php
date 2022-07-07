@@ -33,7 +33,7 @@ include "functions.php";
 <br>
 <div class="login">
     <h1>Login Page</h1>
-    <form action="authenticate.php" method="post">
+    <form action="authTwo.php" method="post">
 
         <label for="user">
             <i class="fas fa-user"></i>
